@@ -1,0 +1,29 @@
+IPCAS (Fu)
+==========
+
+**Time Perception and Estimation Sample**
+
+**Principal Investigator:**
+
+* Xiaolan Fu, Institute of Psychology/Institute of Biophysics, CAS
+
+**Co-Investigator:**
+
+* Ke Zhao, Institute of Psychology, CAS
+
+**Acknowledgements:**
+
+* Chen Jie, Department of Psychology, Liaoning Normal University
+
+**Funding:**
+
+* 973 Program (2011CB302201, XLF)
+* National Natural Science Foundation of China (61075042, XLF)
+
+Sample Description
+------------------
+This sample contains resting fMRI, anatomical, and DTI scans for 30 subjects. During the rest scan, subjects were presented with a fixation cross and instructed to rest while focusing on the fixation cross. Subjects completed two scan sessions one week apart.
+
+Publications Using This Data
+----------------------------
+Zhao, K., Yan, W. J., Chen, Y. H., Zuo, X. N., & Fu, X. (2013). `Amygdala volume predicts inter-individual differences in fearful face recognition <http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0074096>`_. PloS one,8(8), e74096.

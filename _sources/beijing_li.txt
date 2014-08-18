@@ -1,0 +1,33 @@
+Beijing Xuanwu (Li)
+===================
+
+.. image:: /_images/logo_beijing_li.jpg
+
+**6-month Test-Retest in Adults: Control Group From a Stroke Study**
+
+**Principal Investigator:**
+
+* Kuncheng Li, Department of Radiology, Xuanwu Hospital of Capital Medical University
+
+**Co-Investigator:**
+
+* Jie Lu, Department of Radiology, Xuanwu Hospital of Capital Medical University
+
+**Acknowledgements:**
+
+* Miao Zhang, Department of Radiology, Xuanwu Hospital of Capital Medical University
+* Yanxiang Cao, Department of Radiology, Xuanwu Hospital of Capital Medical University
+* Dongdong Rong, Department of Radiology, Xuanwu Hospital of Capital Medical University
+* Cheng Zhao, Department of Radiology, Xuanwu Hospital of Capital Medical University
+
+Sample Description
+------------------
+This sample includes 24 healthy adults who served as the control group in a longitudinal study of brain structure and function during recovery from stroke. Each participant was scanned five times separated by 6 months. Three modalities (T1/EPI/DTI) of brain images were acquired for all subjects. During the resting scan, subjects were presented with a blank screen and instructed to keep their eyes closed, relax and move as little as possible.
+
+Scan Parameters:
+
+* `Anatomical, Rest, and DTI <_static/scan_parameters/beijing_li/beijing_li_all.pdf>`_
+
+Publications Using This Data
+----------------------------
+Lu J, Liu H, Zhang M, Wang D, Cao Y, Ma Q, Rong D, Wang X, Buckner RL, Li K. `Focal Pontine Lesions Provide Evidence That Intrinsic Functional Connectivity Reflects Polysynaptic Anatomical Pathways <http://www.ncbi.nlm.nih.gov/pubmed/22016540>`_. Journal of Neuroscience. 2011; 31(42): 15065-15071. 

@@ -1,0 +1,14 @@
+Quality Control
+===============
+
+*This page will provide a summary of the quality control measures run on the entire CoRR data set. More detailed information will be located on the modality-specific QC pages listed below*
+
+* Quality Control - Functional Images 
+* Quality Control - Anatomical Images 
+* Quality Control - Diffusion Images
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+

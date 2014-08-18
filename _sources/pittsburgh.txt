@@ -1,0 +1,27 @@
+Pittsburgh (Luna)
+=================
+
+.. image:: /_images/logo_pitt.jpg
+
+**Principal Investigators:**
+
+* Beatriz Luna, Staunton Professor of Psychiatry and Pediatrics, University of Pittsburgh
+* Michael Hallquist, Assistant Professor of Psychiatry, University of Pittsburgh
+* David Paulsen, Postdoctoral Fellow, University of Pittsburgh
+
+**Acknowledgements:**
+
+* Kai Hwang, PhD
+* Aarthi Padmanabhan, PhD
+
+**Funding:**
+
+* R01MH080243
+
+Sample Description
+------------------
+*[No information provided by PI]*
+
+Publications Using This Data
+----------------------------
+Hwang K, Hallquist MN, Luna B. `The development of hub architecture in the human functional brain network <http://www.ncbi.nlm.nih.gov/pubmed/22875861>`_. Cereb Cortex. 2012 Aug. 

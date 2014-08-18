@@ -1,0 +1,25 @@
+IPCAS (Liu) - Frames of Reference
+=================================
+
+.. image:: /_images/logo_ipcas_zuo.jpg
+
+**Conflicts From Different Frames of Reference**
+
+**Principal Investigator:**
+
+* Xun Liu, Institute of Psychology, Chinese Academy of Science
+
+**Acknowledgements:**
+
+* Weizhi Nan, Institute of Psychology, Chinese Academy of Science
+* Kai Wang, Institute of Psychology, Chinese Academy of Science
+
+**Funding:**
+
+* National Natural Science Foundation of China (31070987)
+* CAS/SAFEA International Partnership Program for Creative Research Team (Y2CX131003)
+* National Key Technologies R&D Program of China (2012BAI36B01)
+
+Sample Description
+------------------
+Subjects completed a modified version of the 2-cannon task (Tamborello et al. 2012). There were two resting-state blocks in each experiment, one before the task blocks and the other after the task blocks. This sample includes 20 healthy young adults. Two modalities (T1/EPI) of brain images were acquired for all subjects. During functional scanning, subjects were presented with a fixation cross and instructed to keep their eyes open, stare at the fixation, relax and move as little as possible.

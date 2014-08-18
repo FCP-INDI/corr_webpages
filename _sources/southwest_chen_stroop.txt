@@ -1,0 +1,25 @@
+Southwest (Chen) - Stroop
+=========================
+
+.. image:: /_images/logo_southwest.png
+
+**Stroop-Related Test-Retest Resting State fMRI Data**
+
+**Principal Investigators:**
+
+* Antao Chen, Faculty of Psychology, Southwest University of Chongqing
+
+**Acknowledgements:**
+
+* Xu Lei
+
+**Funding:**
+
+* National Natural Science Foundation of China (31170980, 81271477),
+* The Foundation for the Author of National Excellent Doctoral Dissertation of PR China (201107),
+* The New Century Excellent Talents in University (NCET-11-0698),
+* The fundamental research Funds for the Central Universities (SWU1009001, SWU1309351)
+
+Sample Description
+------------------
+This sample is comprised of 24 Subjects. Each of the subjects underwent anatomical scans as well as two ten minute resting scans as part of an experiment involving the Stroop task. *[Need to contact PI for more info]*

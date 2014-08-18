@@ -1,0 +1,28 @@
+NYU (Castellanos)
+=================
+
+.. image:: /_images/nyu.gif
+
+**NYU Institute for Pediatric Neuroscience Sample**
+
+**Principal Investigators:**
+
+* Francisco Xavier Castellanos, Phyllis Green and Randolph Cōwen Institute for Pediatric Neuroscience, NYU Child Study Center
+* Adriana Di Martino, Phyllis Green and Randolph Cōwen Institute for Pediatric Neuroscience, NYU Child Study Center
+* Clare Kelly, Phyllis Green and Randolph Cōwen Institute for Pediatric Neuroscience, NYU Child Study Center
+
+**Funding:**
+
+* R01MH083246
+* Stavros Niarchos Foundation
+* Endowment provided by Phyllis Green and Randolph Cōwen
+
+Sample Description
+------------------
+Forty-nine neurotypical adults underwent 2 resting scans less than an hour apart as part of a larger study protocol. Subjects also completed two 64-direction DTI scans, as well as IQ testing using the Weschler Abbreviated Scale of Intelligence.
+
+Scan Parameters:
+
+* `Resting fMRI <_static/scan_parameters/nyu/nyu_rest.pdf>`_
+* `Anatomical <_static/scan_parameters/nyu/nyu_anat.pdf>`_
+* `DTI <_static/scan_parameters/nyu/nyu_fieldmap.pdf>`_

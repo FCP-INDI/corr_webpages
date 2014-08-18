@@ -1,0 +1,51 @@
+Data Description
+================
+
+CoRR includes 34 datasets consisting of:
+
+* 1507 Subjects
+* 3081 Anatomical Scans
+* 4469 Resting Functional Scans
+* 1428 Diffusion Scans
+* 300 CBF and ASL Scans
+
+For more detailed information about a particular dataset, please see the pages listed below.
+
+Datasets
+--------
+
+* :doc:`Beijing Normal (He) <beijing_he>`
+* :doc:`Beijing Normal (Liu) <beijing_liu>`
+* :doc:`Beijing Normal (Zang) <beijing_zang>`
+* :doc:`Beijing Xuanwu (Li) <beijing_li>`
+* :doc:`Berlin Mind and Brain (Margulies) <berlin>`
+* :doc:`Hangzhou (Weng) <hangzhou_weng>`
+* :doc:`Harvard (Buckner) <harvard>`
+* :doc:`IACAS (Jiang) <iacas>`
+* :doc:`IPCAS (Fu) <ipcas_fu>`
+* :doc:`IPCAS (Jiang) <ipcas_jiang>`
+* :doc:`IPCAS (Liu) - Conflict Adaptation <ipcas_liu_conflict>`
+* :doc:`IPCAS (Liu) - Frames of Reference <ipcas_liu_reference>`
+* :doc:`IPCAS (Wei) <ipcas_wei>`
+* :doc:`IPCAS (Zuo) - 3 Day <ipcas_zuo_3day>`
+* :doc:`IPCAS (Zuo) - Intra-session <ipcas_zuo_intrasession>`
+* :doc:`IPCAS (Zuo) - Tai Chi <ipcas_zuo_taichi>`
+* :doc:`Mind Research Network (Calhoun) <mrn>`
+* :doc:`Montreal (Bellec) <montreal>`
+* :doc:`Munich (Blautzik) - Daily Aging <munich_daily_aging>`
+* :doc:`Munich (Blautzik) - Daily Young Adult <munich_daily_ya>`
+* :doc:`Munich (Blautzik) - Yearly <munich_yearly>`
+* :doc:`Nanjing (Lu) <nanjing>`
+* :doc:`NKI (Milham) <nki>`
+* :doc:`NYU (Castellanos) <nyu_ipn>`
+* :doc:`NYU (Di Martino) <nyu_csc>`
+* :doc:`Pittsburgh (Luna) <pittsburgh>`
+* :doc:`Southwest (Chen) - Attentional Blink <southwest_chen_blink>`
+* :doc:`Southwest (Chen) - Emotion <southwest_chen_emotion>`
+* :doc:`Southwest (Chen) - Stroop <southwest_chen_stroop>`
+* :doc:`Southwest (Qiu) <southwest_qiu>`
+* :doc:`UCSF (Seeley) <ucsf>`
+* :doc:`Utah (Anderson) - Longitudinal <utah_long>`
+* :doc:`Utah (Anderson) - Single Subject <utah_single>`
+* :doc:`Virginia (LaConte) <virginia>`
+* :doc:`Wisconsin (Birn) <wisconsin>`

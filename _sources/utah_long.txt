@@ -1,0 +1,45 @@
+Utah Longitudinal Sample
+========================
+
+.. image:: /_images/utah.jpg
+
+**Principal Investigators:**
+
+* Jeffrey S. Anderson, Division of Neuroradiology, University of Utah
+* Janet E. Lainhart, Department of Psychiatry, University of Wisconsin
+
+**Co-Investigators:**
+
+* Jared A. Nielsen, Division of Neuroradiology, University of Utah
+* Alyson L. Froehlich, Department of Psychiatry, University of Utah
+* Molly B.D. Prigge, Department of Psychiatry, University of Utah
+* Nicholas Lange, Department of Biostatistics, Harvard School of Public Health
+* Erin D. Bigler, Department of Neuroscience, Brigham Young University
+* Andrew L. Alexander, Department of Medical Physics, University of Wisconsin
+* Brandon A. Zielinski, Department of Pediatrics, University of Utah
+* Michael A. Ferguson, Department of Bioengineering, University of Utah
+
+**Funding:**
+
+* NIMH K08MH092697 (JSA)
+* NIMH R01MH080826 (JEL)
+
+Sample Description
+------------------
+Typically developing participants were scanned at least 2 years apart. Resting fMRI was collected with eyes open with instructions: "Keep your eyes open and remain awake. Let thoughts pass through your mind without focusing on any particular mental activity." A blank screen was present for visual stimulation. 
+
+Scan Parameters:
+
+* `Resting fMRI <_static/scan_parameters/utah/utah_rest.pdf>`_
+* `Anatomical <_static/scan_parameters/utah/utah_anat.pdf>`_
+* `Field Map <_static/scan_parameters/utah/utah_fieldmap.pdf>`_
+
+Publications Using This Data
+----------------------------
+Anderson JS, Druzgal TJ, Froehlich A, DuBray MB, Lange N, Alexander AL, Abildskov T, Nielsen JA, Cariello AN, Cooperrider JR, Bigler ED, Lainhart JE. `Decreased interhemispheric functional connectivity in autism. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3077433/>`_ Cereb Cortex. 2011 May;21(5):1134-46. doi: 10.1093/cercor/bhq190.
+
+Anderson JS, Nielsen JA, Froehlich AL, DuBray MB, Druzgal TJ, Cariello AN, Cooperrider JR, Zielinski BA, Ravichandran C, Fletcher PT, Alexander AL, Bigler ED, Lange N, Lainhart JE. `Functional connectivity magnetic resonance imaging classification of autism. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3235557/>`_ Brain. 2011 Dec;134(Pt 12):3742-54. doi: 10.1093/brain/awr263.
+
+Webb JT, Ferguson MA, Nielsen JA, Anderson JS. `BOLD Granger Causality Reflects Vascular Anatomy. <http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0084279>`_ PLoS One. 2013 Dec 13;8(12):e84279. doi: 10.1371/journal.pone.0084279.
+
+Ferguson MA, Anderson JS. `Dynamical stability of intrinsic connectivity networks. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3288774/>`_ Neuroimage. 2012 Feb 15;59(4):4022-31. doi: 10.1016/j.neuroimage.2011.10.062.

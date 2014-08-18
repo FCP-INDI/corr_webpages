@@ -1,0 +1,40 @@
+IACAS (Jiang)
+=============
+
+.. image:: /_images/logo_iacas.jpg
+
+**Brainnetome Sample**
+
+**Principal Investigators:**
+
+* Tianzi Jiang, Brainnetome Center & National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences
+* Huiling Wang, Department of Psychiatry, Renmin Hospital of Wuhan University
+* Jun Chen, Department of Radiology, Renmin Hospital of Wuhan University
+* Gaohua Wang, Department of Psychiatry, Renmin Hospital of Wuhan University
+* Yuan Zhou, Key Laboratory of Behavioral Science & Magnetic Resonance Imaging Research Center, Institute of Psychology, Chinese Academy of Sciences
+* Chang Shu, Department of Psychiatry, Renmin Hospital of Wuhan University
+
+**Acknowledgements:**
+
+* Yilin Zhao
+* Qizhong Xu
+* Liang Zhang
+* Chen Cheng
+* Shihao Wu
+* Jilin Zou
+* Huan Huang
+* Peifu Li 
+
+**Funding:**
+
+* National Key Basic Research and Development Program (973), Grant No. 2011CB707800
+* Natural Science Foundation of China, Grant No. 91132301.
+
+Sample Description
+------------------
+Each participant underwent two resting fMRI scans 6 weeks apart. Subjects were instructed to keep their eyes closed, lie still and relax during the scan.
+
+Scan Parameters:
+
+* `Resting fMRI <_static/scan_parameters/iacas/iacas_rest.pdf>`_
+* `Anatomical <_static/scan_parameters/iacas/iacas_anat.pdf>`_

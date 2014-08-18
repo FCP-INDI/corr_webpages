@@ -1,0 +1,36 @@
+IPCAS (Wei)
+===========
+
+.. image:: /_images/logo_ipcas_zuo.jpg
+
+**Test-Retest in Young Adults: An Acute Exercise Study**
+
+**Principal Investigators:**
+
+* Gao-Xia Wei, Institute of Psychology, Chinese Academy of Science
+* Xi-Nian Zuo, Institute of Psychology, Chinese Academy of Science
+
+**Co-Investigators:**
+
+* Wei-Wen Wang, Institute of Psychology, Chinese Academy of Science
+
+**Acknowledgements:**
+
+* You-Fa Li, Beijing Normal University
+* Xiao-Lin Yue, Institute of Psychology, Chinese Academy of Science
+* Xing-Ting Zhu, Institute of Psychology, Chinese Academy of Science
+* Hao-Ming Dong, Institute of Psychology, Chinese Academy of Science
+* Yang Ning, Institute of Psychology, Chinese Academy of Science
+
+**Funding:**
+
+* National Natural Science Foundation of China (31200794, 91132728, 31271079, 81171409, 81220108014)
+* Hundred Talents Program and the Key Research Program (KSZD-EW-TZ-002: XNZ) of the Chinese Academy of Sciences
+
+Sample Description
+------------------
+This sample includes 22 healthy young adults who served as the control group and intervention group in a longitudinal study on the effect of the acute exercise on brain function. In the control group, each participant was scanned three times (separated at least 10 minutes for scan 1 and scan 2, and 40 minutes for scan 2 and scan 3). In the exercise group, each participant underwent two scansat least 10 minutes apart. During scanning, subjects were instructed to keep their eyes closed, relax and move as little as possible. Two modalities (T1/EPI) of brain images were acquired for all subjects.
+
+Scan Parameters:
+
+* `Functional and Anatomical <_static/scan_parameters/ipcas_wei/ipcas_wei_all.pdf>`_

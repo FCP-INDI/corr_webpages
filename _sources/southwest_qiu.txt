@@ -1,0 +1,21 @@
+Southwest (Qiu)
+===============
+
+.. image:: /_images/logo_southwest.png
+
+**Emotion and Creativity: One-year Test-retest Multimodal Neuroimaging Sample**
+
+**Principal Investigators:**
+
+* Prof. Qiu Jiang , Faculty of Psychology, Southwest University of Chongqing
+* Prof. Zhang Qinglin, Faculty of Psychology, Southwest University of Chongqing
+
+**Funding:**
+
+* The National Natural Science Foundation of China (31070900; 31170983; 31271087)
+* The Program for New Century Excellent Talents in University (2011) by the Ministry of Education.
+
+
+Sample Description
+------------------
+The Emotion and Creativity One Year Retest Dataset is comprised of 235 Subjects, all of whom were college students. Each subject underwent two sessions of anatomical, resting state fMRI, and DTI scans, spaced one year apart.

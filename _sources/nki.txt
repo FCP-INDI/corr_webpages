@@ -1,0 +1,43 @@
+NKI-RS Multiband Test-Retest Pilot Sample
+=========================================
+
+.. image:: /_images/nki.gif
+
+**Principal Investigators:**
+
+* Michael Milham, Center for Advanced Brain Imaging, Nathan S. Kline Institute for Psychiatric Research.
+* *[Ask mike who else he wants listed here or under acknowledgemnets]*
+
+**Acknowledgements:**
+
+**Funding:**
+
+* NIMH BRAINS R01MH094639-01
+* New York State Office of Mental Health and Research Foundation for Mental Hygiene
+* Child Mind Institute (1FDN2012-1)
+* Center for the Developing Brain at the Child Mind Institute
+* NIMH R01MH081218
+* R01MH083246
+* R21MH084126
+* NKI Center for Advanced Brain Imaging (CABI)
+* Brain Research Foundation 
+* Stavros Niarchos Foundation
+
+Sample Description
+------------------
+Prior to launch of the `Enhanced NKI-Rockland Sample <http://fcon_1000.projects.nitrc.org/indi/enhanced/>`_, an initial test-retest dataset was obtained to assess the reliability of multiband R-fMRI and DTI scans. The dataset is primarily composed of individuals from the initial NKI-RS - for these individuals psychiatric assessment information is available and included (participants were not excluded due to history of illness). For full information on subject demographics and the study protocol, please see the `NKI-RS webpage <http://fcon_1000.projects.nitrc.org/indi/enhanced/>`_.
+
+Scan Parameters:
+
+* `R-mfMRI (TR = 645msec) <_static/scan_parameters/nki/nki_rest_645.pdf>`_
+* `R-mfMRI (TR = 1400msec) <_static/scan_parameters/nki/nki_rest_1400.pdf>`_
+* `R-fMRI (TR = 2500msec) <_static/scan_parameters/nki/nki_rest_2500.pdf>`_
+* `Diffusion Tensor Imaging (137 direction) <_static/scan_parameters/nki/nki_DTI.pdf>`_
+
+Publications Using This Data
+----------------------------
+Nooner et al,. `The NKI-Rockland Sample: A Model for Accelerating the Pace of Discovery Science in Psychiatry. <http://www.ncbi.nlm.nih.gov/pubmed/23087608>`_ Frontiers in neuroscience 6 (2012).
+
+Liao, Xu-Hong, Ming-Rui Xia, Ting Xu, Zheng-Jia Dai, Xiao-Yan Cao, Hai-Jing Niu, Xi-Nian Zuo, Yu-Feng Zang, and Yong He. `Functional Brain Hubs and Their Test-Retest Reliability: A Multiband Resting-State Functional MRI Study. <http://www.ncbi.nlm.nih.gov/pubmed/23899725>`_ NeuroImage (2013).
+
+Wang, X, Y Jiao, T Tang, H Wang, and Z Lu. `Investigating Univariate Temporal Patterns for Intrinsic Connectivity Networks Based on Complexity and Low-frequency Oscillation: A Test--retest Reliability Study. <http://www.ncbi.nlm.nih.gov/pubmed/24042040>`_ Neuroscience 254 (2013): 404-426.

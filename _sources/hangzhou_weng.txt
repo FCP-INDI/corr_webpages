@@ -1,0 +1,26 @@
+Hangzhou (Weng)
+===============
+
+.. image:: /_images/logo_hangzhou_weng.jpg
+
+**One-month Test-Retest Reliability and Dynamical Resting-State Study**
+
+**Principal Investigators:**
+
+* Xu-Chu Weng, Center for Cognition and Brain Disorders, Hangzhou Normal University
+
+* Xi-Nian Zuo, Institute of Psychology, Chinese Academy of Science
+
+**Acknowledgements:**
+
+* Bing Chen, Cognitive Science Department, Xiamen University, Center for Cognition and Brain Disorders, Hangzhou Normal University
+* Qiu Ge, Center for Cognition and Brain Disorders, Hangzhou Normal University
+
+**Funding:**
+
+* National Natural Science Foundation of China (31070905, 31371134)
+* National Social Science Foundation of China (11AZD119)
+
+Sample Description
+------------------
+This sample includes 30 healthy adults; Each participant received ten scans across one month, one scan every three days. Five modalities (EPI/ASL/T1/DTI/T2) of brain images were acquired for all subjects. During functional scanning, subjects were presented with a fixation cross and were instructed to keep their eyes open, relax and move as little as possible while observing the fixation cross. Subjects were also instructed not to engage in breath counting or meditation.

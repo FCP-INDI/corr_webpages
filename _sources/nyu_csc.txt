@@ -1,0 +1,28 @@
+NYU Institute of Pediatric Neuroscience Sample
+==============================================
+
+.. image:: /_images/nyu.gif
+
+**Principal Investigators:**
+
+* Xavier Castellanos, Phyllis Green and Randolph Cōwen Institute for Pediatric Neuroscience, NYU Child Study Center
+* Adriana Di Martino, Phyllis Green and Randolph Cōwen Institute for Pediatric Neuroscience, NYU Child Study Center
+* Clare Kelly, Phyllis Green and Randolph Cōwen Institute for Pediatric Neuroscience, NYU Child Study Center
+
+**Acknowledgements:**
+
+* *[Ask if they want anyone acknowledged]*
+
+Sample Description
+------------------
+Forty-nine neurotypical adults underwent 2 resting scans less than an hour apart as part of a larger study protocol. *[Confirm eyes open, get info about stimuli/instructions from Mike]*. Subjects also completed two 64-direction DTI scans, as well as IQ testing with using the Weschler Abbreviated Scale of Intelligence.
+
+Scan Parameters:
+
+* `Resting fMRI <_static/scan_parameters/nyu/nyu_rest.pdf>`_
+* `Anatomical <_static/scan_parameters/nyu/nyu_anat.pdf>`_
+* `DTI <_static/scan_parameters/nyu/nyu_fieldmap.pdf>`_
+
+Publications Using This Data
+----------------------------
+*[Get list from Adri/Mike/Clare/Xavier]*

@@ -1,0 +1,249 @@
+Montreal (Bellec)
+=================
+
+**PreventAD Sample**
+
+**Principal Investigators:**
+
+* Pierre Orban, Unité de neuroimagerie fonctionnelle, Centre de recherche de l'institut de gériatrie de Montréal
+* Cécile Madjar, Stop-AD Centre, Douglas Institute/Montreal Neurological Institute
+* Mélissa Savard, Stop-AD Centre, Douglas Institute
+* Alan C. Evans, Departments of Neurology and Neurosurgery, Medical Physics, and Biomedical Engineering, McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University
+* John C.S. Breitner, Centre for Studies on Prevention of Alzheimer's Disease, Department of Psychiatry, Douglas Institute, McGill University Faculty of Medicine
+* Pedro Rosa-Neto, Douglas Institute, Translational Neuroimaging Laboratory, Departments of Neurology & Neurosurgery and Psychiatry, McGill University
+*  Pierre Bellec, Unité de neuroimagerie fonctionnelle, Centre de recherche de l'institut universitaire de gériatrie de Montréal, Université de Montréal
+
+**Acknowledgements:**
+
+Investigators:
+
+* Dr. John C.S. Breitner
+* Dr. Veronique Bohbot
+* Dr. Pierre Etienne	
+* Dr. Serge Gauthier
+* Dr. Pedro Rosa-Neto	
+* Dr. Vasavan Nair
+* Dr. Judes Poirier	
+* Dr. Mark Eisenberg
+* Dr. Alan Evans	
+* Dr. Alan Barkun
+* Dr. Pierre Bellec	
+* Dr. Rémi Quirion
+* Dr. Natasha Rajah	
+* Dr. Rick Hoge
+* Dr. Jens Pruessner	
+* Dr. Louis Collins
+
+Project Administration:
+
+* Dr. John C.S. Breitner	
+* Melissa Appleby
+* Marianne Dufour	
+* Eduard Teigner
+* Jennifer Tremblay-Mercier	
+* Leopoldina Carmo
+* Joanne Frenette	
+* Isabelle Poirier
+* Cécile Madjar	
+
+Database Management:
+
+* Cécile Madjar	
+* Eduard Teigner
+* Samir Das	
+* Melissa Appleby
+* Dr. Penelope Kostopoulos	
+* Pierre Rioux
+* Dr. Vinod Venogopalan	
+
+Interview Data Collection:
+
+* Joanne Frenette	
+* Tanya Lee
+* Ginette Mayrand	
+* Marie-Elyse Lafaille-Magnan
+* Dr. Vinod Venogopalan
+* Melissa Appleby
+* Isabelle Vallée
+* Laura Mahar
+* Valérie Gervais
+* Galina Pogossova
+* Rana El-Khoury
+* Guerda Duclair
+* Nicole Desrochers	
+* Céline Brunelle
+* Isabelle Poirier	
+
+Data Analyses:
+
+* Cécile Madjar	
+* Dr. Louis Collins
+* Marie-Elyse Lafaille Magnan	
+* Dr. Vladimir Fonov
+* Mélissa Savard	
+* Dr. Laksanaun Cheewakriengkrai
+* Dr. Paule-Joanne Toussaint	
+* Jennifer Tremblay-Mercier
+* Dr. Yasser Ituria-Medina	
+* Christian Dansereau
+* Dr. Pierre Orban
+* Angela Tam
+* Dr. Pierre Bellec	
+
+Image Acquisition:
+
+* Holly Newbold-Fox	
+* Axel Mathieu
+* Tanya Lee	
+* Yuriy Polyukh
+* Melissa Appleby
+* Ajay Patel
+* Laura Mahar	
+* Meghnad Seewooruttun
+* Marie-Elyse Lafaille-Magnan	
+* Miranda Tuwaig
+* Cécile Madjar	
+* Mélissa Savard
+* Dr. Jamie Near	
+
+Data Entry:
+
+* Tanya Lee	
+* Renaud Francoeur
+* Melissa Appleby	
+* Stephanie Kliegman
+* Dr. Vinod Venugopalan	
+* Marie-Elyse Lafaille-Magnan
+* Laura Mahar	
+* Mélissa Savard
+* Galina Pogossova
+
+Clinical Evaluation:
+
+* Dr. John C.S. Breitner	
+* Valérie Gervais
+* Dr. Pierre Etienne	
+* Rana El-Khoury
+* Dr. Laksanun Cheewakriengkrai	
+* Nicole Desrochers
+* Dr. Vasavan Nair	
+* Isabelle Poirier
+* Dr. Marina Dauar-Tedeschi	
+* Dr. Pedro Rosa-Neto
+* Joanne Frenette	
+* Dr. Jean-Robert Maltais
+* Ginette Mayrand	
+* Dr. René Desautels
+* Isabelle Vallée
+
+Cognitive:
+
+* Dr. David Fontaine	
+* Laura Mahar
+* Tanya Lee	
+* Galina Pogossova
+* Melissa Appleby	
+* Dr. Vinod Venugopalan
+* Marie-Elyse Lafaille-Magnan	
+
+Database:
+
+* Justin Kat
+* Cécile Madjar
+* Mirela Petkova	
+
+Image Processing:
+
+* Dr. Alan Evans	
+* Mélissa Savard
+* Dr. Pierre Bellec	
+* Marie-Elyse Lafaille-Magnan
+* Dr. Pierre Orban	
+* Dr. Paule-Joanne Toussaint
+* Dr. Louis Collins	
+* Seqian Wang
+* Dr. Vladimir Fonov	
+* Sulantha Mathotaarachchi
+* Dr. Rick Hoge	
+* Thomas Beaudry
+* Dr. Natasha Rajah	
+* Christian Dansereau
+* Cécile Madjar	
+* Angela Tam
+* Dr. Yasser Ituria-Medina	
+
+Genetic Analysis and Biochemical Assays:
+
+* Dr Judes Poirier	
+* Cynthia Picard
+* Doris Dea	
+* Josée Frappier
+* Anne Labonté	
+* Justin Miron
+* Louise Théroux
+
+Randomization and Pharmacy: 
+
+* Fatiha Bennouhoud	
+* Marie-Elyse Lafaille-Magnan
+* Anne Marie Faubert	
+* Joanne Frenette
+* Sylvie Dubuc	
+* Sharon Keys
+* Diane Michaud	
+
+Lumbar Puncture / Biomarker:
+
+* Doris Couture	
+* Dr. Pedro Rosa-Neto
+* Elena Anthal	
+* Dr. Laksanun Cheewakrienkrai
+* Charles Edouard Carrier	
+* Dr. Marina Dauar-Tedeschi
+
+Consultants:
+
+* Dr. Jason Brandt	
+* Claude Lepage
+* Dr. John C. Morris	
+* Dr. Blandine Courcot
+* Dr. Reisa A. Sperling	
+* Renee Gordon
+* Dr. Mark A. Sager	
+* Renée Sauriol
+* Dr. David S. Knopman	
+* Alexandra Kelso Gravel
+* Dr. Bradley T. Hyman	
+* Anne Quirion
+* Dr. Pierre N. Tariot	
+* Marie-France Coutu
+* Dr. Clifford R. Jack	
+* Véronique Malenfant
+* Dr. Ronald G. Thomas	
+* Véronique Pagé
+* Dr. Thomas J. Montine	
+* David Maillet
+* Dr. Zaven s. Khachaturian	
+* Dr. Jens Pruessner
+* Dr. Suzanne Craft	
+* Claudio Cuello
+* Dr. Paul Aisen	
+* Lisa-Marie Münter
+* Ilana Lepert	
+* Gerhard Maultaup
+
+**Funding:**
+
+* Canada Research Chair Award to McGill University (JCSB)
+* McGill University Faculty of Medicine Research Fund
+* Pfizer Canada Unrestricted Gift
+* Douglas Hospital Foundation
+* Douglas Hospital Research Center
+
+Sample Description
+------------------
+Subjets were instructed to close their eyes, relax, and not to fall asleep.
+
+Scan Parameters:
+
+*[PI sent these embedded as images in a word document. Need to ask PI to re-send as PDFs.]*

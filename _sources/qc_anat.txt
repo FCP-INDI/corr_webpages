@@ -1,0 +1,22 @@
+Quality Control: Anatomical Images
+==================================
+
+Overall CoRR Dataset
+--------------------
+For all figures below, the blue line indicates the mean across all CoRR sites. The green bars indicate +/- 1 Interquartile Ranges.
+
+**Signal-to-Noise Ratio**
+
+.. image:: /_images/qc_overall_snr.jpg
+
+**Contrast-to-Noise Ratio**
+
+.. image:: /_images/qc_overall_cnr.jpg
+
+**Foreground:Background Energy Ratio**
+
+.. image:: /_images/qc_overall_fber.jpg
+
+**Entropy Focus Criterion**
+
+.. image:: /_images/qc_overall_efc.jpg

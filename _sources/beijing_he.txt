@@ -1,0 +1,37 @@
+Beijing Normal (He)
+===================
+
+.. image:: /_images/logo_beijing_liu.jpg
+
+**Connectivity-based Brain Imaging Research Database (C-BIRD) at BNU**
+
+**Principal Investigator:**
+
+* Yong He, State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Beijing Normal University
+
+**Acknowledgements:**
+
+* Qixiang Lin, State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Beijing Normal University
+* Ruiwang Huang, State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University
+* Gaolang Gong, State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Beijing Normal University
+* Mingrui Xia, State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Beijing Normal University
+
+**Funding:**
+
+* National Natural Science Foundation of China (Grant No. 81030028)
+* National Science Fund for Distinguished Young Scholars (Grant No. 81225012)
+* CERS-China Equipment and Education Resources System (CERS-1-52)
+
+Sample Description
+------------------
+Data included in this sample are a subset of the Connectivity-based Brain Imaging Research Database (C-BIRD) at BNU. This sample contains data from 57 healthy young volunteers (male/female: 30/27; age: 19-30 years) who completed two MRI scan sessions within an interval of approximate 6-weeks (40.94±4.51 days). All participants were right-handed and had no history of neurological and psychiatric disorders. 
+
+The first session included two resting-state fMRI scans, T1, T2 and DTI. The two resting-state fMRI scans were at the beginning and the end of the session (~20 minutes apart). The second scan session included resting-state fMRI, T1 and DTI. Participants were instructed to rest and relax with their eyes closed and not fall asleep.
+
+Written informed consent was obtained from each participant, and this study was approved by the Institutional Review Board of the State Key Laboratory of Cognitive Neuroscience and Learning at Beijing Normal University.
+
+Scan Parameters:
+
+* `Resting fMRI <_static/scan_parameters/beijing_he/beijing_he_rest.pdf>`_
+* `Anatomical <_static/scan_parameters/beijing_he/beijing_he_anat.pdf>`_
+* `DTI <_static/scan_parameters/beijing_he/beijing_he_DTI.pdf>`_

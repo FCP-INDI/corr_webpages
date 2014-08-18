@@ -1,0 +1,28 @@
+IPCAS (Jiang)
+=============
+
+.. image:: /_images/logo_ipcas_jiang.jpg
+
+**Inter-Session Test-Retest Dataset from Typically Developing Children**
+
+**Principal Investigators:**
+
+* Yi Jiang, Institute of Psychology, Chinese Academy of Science
+* Xi-Nian Zuo, Institute of Psychology, Chinese Academy of Science
+
+**Co-Investigators:**
+
+* Yong Xu, Department of Psychiatry, First Hospital of Shanxi Medical University
+* Hui-Jie Li, Institute of Psychology, Chinese Academy of Science
+
+**Acknowledgements:**
+
+* Xia-Hui Hou, Institute of Psychology, Chinese Academy of Science
+
+**Funding:**
+
+* National Key Technologies R&D Program of China (2012BAI36B01)
+
+Sample Description
+------------------
+This sample includes 35 typically developing children. Each participant underwent two scanning sessions one month apart. Three modalities (T1 /EPI/DTI) of brain images were acquired for all subjects. During scanning, subjects were instructed to keep their eyes closed, relax and move as little as possible. 

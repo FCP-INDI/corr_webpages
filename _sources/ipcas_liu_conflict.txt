@@ -1,0 +1,27 @@
+IPCAS (Liu) - Conflict Adaptation
+=================================
+
+.. image:: /_images/logo_ipcas_zuo.jpg
+
+**Domain-Specific Conflict Adaptation Effects**
+
+**Principal Investigator:**
+
+* Xun Liu, Institute of Psychology, Chinese Academy of Science
+
+**Acknowledgements:**
+
+* Wei-Zhi Nan, Institute of Psychology, Chinese Academy of Science
+* Qi Li, Institute of Psychology, Chinese Academy of Science
+
+**Funding:**
+
+* National Natural Science Foundation of China (31070987 and 31200782)
+* CAS/SAFEA International Partnership Program for Creative Research Team (Y2CX131003)
+* National Key Technologies R&D Program of China (2012BAI36B01)
+* Beijing Natural Science Foundation (7133250)
+* Young Scientist Fund of the Institute of Psychology (Y1CX242005)
+
+Sample Description
+------------------
+Two independent stimulus-response compatibility (SRC) experiments were conducted, both combining the Stroop task and the Simon task. There were two resting-state blocks in each experiment, one before the task blocks and the other after the task blocks. This sample includes 36 healthy young adults, 4 of which participated in both experiments. Each participant was scanned once for each experiment. Two modalities (T1/EPI) of brain images were acquired for all subjects. During functional scanning, subjects were presented with a fixation cross and instructed to keep their eyes open, stare at the fixation, relax and move as little as possible.

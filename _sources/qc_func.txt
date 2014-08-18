@@ -1,0 +1,22 @@
+Quality Control: Functional Images
+==================================
+
+Overall CoRR Dataset
+--------------------
+For all figures below, the blue line indicates the median across all CoRR sites. The green bars indicate the 25th and 75th percentile.
+
+**MeanFD (Power)**
+
+.. image:: /_images/qc_overall_meanFD.jpg
+
+**MeanDVARS (Kelly)**
+
+.. image:: /_images/qc_overall_meanDVARS.jpg
+
+**Percent of Volumes with FD > 0.2mm**
+
+.. image:: /_images/qc_overall_fdpct.jpg
+
+**Mean Temporal SNR**
+
+.. image:: /_images/qc_overall_tsnr.png

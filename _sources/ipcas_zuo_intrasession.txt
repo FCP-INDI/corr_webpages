@@ -1,0 +1,35 @@
+IPCAS (Zuo) - Intra-session
+===========================
+
+.. image:: /_images/logo_ipcas_zuo.jpg
+
+**Intra-Session Test-Retest Datasets for Typically Developing Children**
+
+**Principal Investigator:**
+
+* Xi-Nian Zuo, Institute of Psychology, Chinese Academy of Science
+
+**Co-Investigators:**
+
+* Zhi Yang, Institute of Psychology, Chinese Academy of Science
+* Gao-Xia Wei, Institute of Psychology, Chinese Academy of Science
+* Hui-Jie Li, Institute of Psychology, Chinese Academy of Science
+* Lili Jiang, Institute of Psychology, Chinese Academy of Science
+
+**Acknowledgements:**
+
+* Hao-Ming Dong, Institute of Psychology, Chinese Academy of Science
+* Xing-Ting Zhu, Institute of Psychology, Chinese Academy of Science
+* Ye He, Institute of Psychology, Chinese Academy of Science
+* Ning Yang, Institute of Psychology, Chinese Academy of Science
+* Zhe Zhang, Institute of Psychology, Chinese Academy of Science
+
+**Funding:**
+
+* National Natural Science Foundation of China (81171409)
+* International Cooperation and Exchange of National Natural Science Foundation of China (81220108014)
+* Hundred Talents Program and the Key Research Program (KSZD-EW-TZ-002) of the Chinese Academy of Sciences
+
+Sample Description
+------------------
+This sample includes 72 typically developing children. Each participant was scanned twice within a session. Three modalities (T1 /T2/EPI) of brain images were acquired for all subjects. Subjects were presented with a fixation cross and were instructed to keep their eyes open, fixate on the cross displayed on the screen, relax, and move as little as possible

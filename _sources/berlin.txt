@@ -1,0 +1,32 @@
+Berin Mind and Brain (Margulies)
+================================
+
+.. image:: /_images/berlin.png
+
+**Berlin School of Mind and Brain / Neuro Bureau Sample**
+
+**Principal Investigators:**
+
+* Daniel Margulies, Neuranatomy and Connectivity Research Group, Max Planck Institute for Human Cognitive and Brain Sciences
+
+* Arno Villringer, Department of Neurology, Max Planck Institute for Human Cognitive and Brain Sciences
+
+**Acknowledgements:**
+
+* Shereen Chaudhry
+* Christiane Rohr
+* Marjan Sharifi
+* Suparna Choudhury
+
+Sample Description
+------------------
+The Berlin School of Mind and Brain / Neuro Bureau sample represents a community sample including individuals ranging in age from 18 to 60 years old. Each participant copmleted at least two 7.5-minute resting state scans. During the resting state scan participants were instructed to relax while keeping their eyes open. In part of the sample eye status was randomized between scans. The particular eye status for each scan is indicated in the phenotypic information. No visual stimulus was presented. A subset of participants completed the ICS and PANAS affective behavior scales.
+
+Scan Parameters:
+
+* `Resting fMRI <_static/scan_parameters/berlin/berlin_rest.pdf>`_
+* `Anatomical <_static/scan_parameters/berlin/berlin_anat.pdf>`_
+
+Publications Using This Data
+----------------------------
+Rohr CS, Okon-Singer H, Craddock RC, Villringer A, Margulies DS.. `Affect and the brain's functional organization: a resting-state connectivity approach. <http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0068015>`_ PLoS One. 2013 Jul 23;8(7):e68015. doi: 10.1371/journal.pone.0068015.

@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<title>Accessing CoRR Data through COINS</title>
+<style type="text/css">
+body {width:900px;margin:0 auto;padding-top:100px;padding-bottom:100px;}
+
+</style>
+<SCRIPT language="JavaScript">
+function unScramble(eMail1,eMail2,linkText,subjectText,statusText){
+var a,b,c,d,e;a=eMail1;c=linkText;b=eMail2.substring(0,eMail2.length-5);
+if(subjectText!=""){d="?subject="+escape(subjectText);}else{d="";}
+if(statusText!=""){e=" onMouseOver=\"top.status=\'"+statusText+ 
+"\'\;return true\;\" onMouseOut=\"top.status=\'\'\;return true\;\"";}else{e="";}
+document.write("<A HREF=\"mai"+"lto:"+a+"@"+b+d+"\""+e+">"+c+"</A>");}
+</SCRIPT>
+</head>
+<body>
+<center>
+<h1>COINS Usage Instructions</h1>
+</center>
+
+<p>To access CoRR data through COINS, go to: <a href="http://coins.mrn.org/dataexchange">http://coins.mrn.org/dataexchange</a></p>
+ 
+<p>There, you can login in using your COINS user ID and password (if you do not have an account, just select the "Get Account" option).</p>
+ 
+<p>From the <b>Data Exchange</b> menu at the top, select <b>Browse Available Data</b>. For users new to COINS, we recommend watching the <b>Video Tutorial</b> available below (also available at the top-left of the Browse Available Data page).</p>
+
+<center><iframe width="640" height="480" src="http://www.youtube.com/embed/YjMbCq5NBuc" frameborder="0" allowfullscreen></iframe></center>
+
+<p>When you are ready, drag an <b>AND</b> Data Group onto the <b>Request Workspace</b>. Into the AND group, drag a <b>Studies</b> data filter. Click <b>Study Name</b> and select <b>CoRR</b>, and click apply. This will ensure you request data from the CoRR samples. It may take up to 6-12 hours for our team to approve your one-time data access request. </p>
+ 
+<p>If you have any questions, feel free to <script language="JavaScript">unScramble("daniel.lurie","childmind.organize","contact Dan Lurie","NKI-RS Data Access","Click here to send me email");</script><noscript>contact Dan Lurie: daniel/DÖT/lurie/ÄT/childmind/DÖT/-o-r-g-/</noscript></p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+Munich (Blautzik) - Daily Aging
+===============================
+
+.. image:: /_images/munich.png
+
+**Principal Investigators:**
+
+* Janusch Blautzik *[need affiliation]*
+* Thomas Meindl *[need affiliation]*
+
+
+Sample Description
+------------------
+*[No information provided by PI]*
+
+Publications Using This Data
+----------------------------
+`Long-term test-retest reliability of resting-state networks in healthy elderly subjects and patients with amnestic mild cognitive impairment <http://www.ncbi.nlm.nih.gov/pubmed/23271315>`_. J Alzheimers Dis. 2013;34(3):741-54. doi: 10.3233/JAD-111970
+
+`Classifying fMRI-derived resting-state connectivity patterns according to their daily rhythmicity <http://www.ncbi.nlm.nih.gov/pubmed/22906784>`_. Neuroimage. 2013 May 1;71:298-306.doi:10.1016/j.neuroimage.2012.08.010.

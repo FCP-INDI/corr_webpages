@@ -1,0 +1,29 @@
+Beijing Normal (Zang)
+=====================
+
+.. image:: /_images/beijing_sklcnl.gif
+
+**Eyes Open / Eyes Closed Dataset**
+
+**Principal Investigator:**
+
+*Yu-Feng Zang
+
+**Funding:**
+
+* National Natural Science Foundation of China: 30770594 
+* National High Technology Program of China (863): 2008AA02Z405.
+
+Sample Description
+------------------
+These data include 48 healthy controls from a community (student) sample from Beijing Normal University in China. Each participant has 3 resting state fMRI scans. During the first scan participants were instructed to rest with their eyes closed. The second and third resting state scan were randomized between resting with eyes open versus eyes closed. In addition this dataset contains a 64-direction DTI scan for every participant.
+
+Scan Parameters:
+
+* `Resting fMRI <_static/scan_parameters/beijing_eoec/beijing_eoec_rest.pdf>`_
+* `Anatomical <_static/scan_parameters/beijing_eoec/beijing_eoec_anat.pdf>`_
+* `DTI <_static/scan_parameters/beijing_eoec/beijing_eoec_DTI.pdf>`_
+
+Publications Using This Data
+----------------------------
+Yan, C., Liu, D., He, Y., Zou, Q., Zhu, C., Zuo, X., et al. (2009). `Spontaneous brain activity in the default mode network is sensitive to different resting-state conditions with limited cognitive load <http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0005743>`_. PLoS ONE, 4(5), e5743. doi:10.1371/journal.pone.0005743

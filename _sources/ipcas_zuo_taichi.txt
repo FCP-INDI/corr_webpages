@@ -1,0 +1,44 @@
+IPCAS (Zuo) - Tai Chi
+=====================
+
+.. image:: /_images/logo_ipcas_zuo.jpg
+
+**One-year Test-Retest in Older Adults: A control group for a study of the effects of Tai Chi Chun**
+
+**Principal Investigators:**
+
+* Xi-Nian Zuo, Institute of Psychology, Chinese Academy of Science
+* Jing Luo, College of Education, Capital Normal University
+
+**Co-Investigators:**
+
+* Gao-Xia Wei, Institute of Psychology, Chinese Academy of Science
+
+**Acknowledgements:**
+
+* Hao-Ming Dong, Institute of Psychology, Chinese Academy of Science
+* Xiao-Ling Yue, Institute of Psychology, Chinese Academy of Science
+
+**Funding:**
+
+* National Natural Science Foundation of China (31200794, 91132728, 31271079, 81171409, 81220108014)
+* National Basic Research Program of China (2010CB833904: JL)
+* Hundred Talents Program and the Key Research Program (KSZD-EW-TZ-002: XNZ) of the Chinese Academy of Sciences
+
+Sample Description
+------------------
+This sample includes 13 healthy older adults who served as the control group in a study on the effect of traditional Chinese Tai Chi Chun on brain structure and function, in a longitudinal experimental design. Each participant was scanned twice, with scans at least one year apart. Three modalities (T1/EPI/DTI) of brain images were acquired for each subject.
+
+Subjects were presented with a blank screen and instructed to keep their eyes closed, relax and move as little as possible. Subjects were also asked not focus on their breathing or put themselves in a meditative state.
+
+Scan Parameters:
+
+* Resting fMRI
+* Anatomical
+* DTI
+
+Publications Using This Data
+----------------------------
+Wei GX, Dong HM, Yang Z, Luo J, Zuo XN. `Tai Chi Chuan optimizes the functional organization of the intrinsic human brain architecture in older adults <http://journal.frontiersin.org/Journal/10.3389/fnagi.2014.00074/abstract>`_. Front. Aging Neurosci. 2014; 8:74.
+
+Wei GX, Xu T, Fan FM, Dong HM, Jiang LL, Li HJ, Yang Z, Luo J, Zuo XN. `Can Taichi reshape the brain? A brain morphometry study <http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0061038>`_. PLoS ONE. 2013; 8(4): e61038.

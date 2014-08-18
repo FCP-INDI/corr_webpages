@@ -1,0 +1,30 @@
+Mind Research Network Repeat Resting Sample
+===========================================
+
+.. image:: /_images/mrn_logo.jpg
+
+**Principal Investigators:**
+
+* Andy Mayer, Mind Research Network
+
+**Funding:**
+
+* Department of Energy (The Mind Research Network). Grant Number: DE-FG02-99ER62764
+* National Institutes of Health. Grant Numbers: R24-HD050836, R21-NS064464-01A1, 3 R21 NS064464-01S1
+* NCRR (Center on Neural Mechanisms of Schizophrenia). Grant Number: P20 RR021938
+
+Sample Description
+------------------
+The MRN Repeat Resting Sample consists of 112 scans from 56 healthy subjects. Each subject completed two scan sessions, four months apart. Two anatomical, resting fMRI, and DTI images are provided for each subject. Subjects were asked to keep their eyes open and presented with a fixation cross during the functional scan. They were given the following instructions: "We are about to begin the rest task. For this task you will be asked to lie still and keep your eyes focused on the crosshairs while the machine is on. Do you have any questions?"
+
+Scan Parameters:
+
+* Resting fMRI
+* Anatomical
+* DTI
+
+Publications Using This Data
+----------------------------
+Mayer AR, Mannell MV, Ling J, Gasparovic C, Yeo RA. `Functional connectivity in mild traumatic brain injury <http://www.ncbi.nlm.nih.gov/pubmed/21259381>`_. Hum Brain Mapp. 2011 Nov;32(11):1825-35. doi: 10.1002/hbm.21151
+
+Franco AR, Mannell MV, Calhoun VD, Mayer AR. `Impact of analysis methods on the reproducibility and reliability of resting-state networks <http://www.ncbi.nlm.nih.gov/pubmed/23705789>`_. Brain Connect. 2013;3(4):363-74. doi: 10.1089/brain.2012.0134

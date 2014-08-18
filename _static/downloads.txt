@@ -1,0 +1,440 @@
+<html>
+<head>
+  <title>CoRR Data Downloads</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    var suffix=1;
+    function downloadAll(oFrm){
+      var oChk = oFrm.elements["file"+(suffix++)];
+      if (oChk){
+        if (oChk.checked){
+          location.href = oChk.value;
+          setTimeout(function(){downloadAll(oFrm)}, 1000);
+        }
+        else{
+          downloadAll(oFrm);
+        }
+      }
+    }
+
+    $(document).ready(function() {
+      $('#select-all, #deselect-all').on('click', function(e) {
+        var $boxes = $('input.site1, input.site2'),
+            toggle = this.id === 'select-all' ? true : false;
+
+        if (toggle) {
+          $boxes.each(function() {
+            this.checked = true;
+          });  
+        }
+        else {
+          $boxes.each(function() {
+            this.checked = false;
+          });
+        }
+      });
+
+      $('input[name=select-all-site]').on('click', function(e) {
+        var $boxes = $('input.' + $(this).attr('class'));
+        
+        $boxes.each(function() {
+          this.checked = true;
+        });
+      });
+    });
+  </script>
+</head>
+  <body>
+    <p> Each tar file is approximately 2GB in size. Be sure to review Release Notes and Phenoytpic Information prior to using this data. <p/>
+
+    <h3>BMB 1 - Berlin Mind and Brain (Margulies, Villringer)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site1" /><br>
+      <input type="checkbox" class="site1" name="file1" id="file1" value="https://www.nitrc.org/frs/downloadlink.php/6490" /><label for="file1">BMB_1_0003001_0003042</label><br />
+      <input type="checkbox" class="site1" name="file2" id="file2" value="https://www.nitrc.org/frs/downloadlink.php/6491" /><label for="file2">BMB_1_0003044_0003064</label><br />
+      <input type="checkbox" class="site1" name="file3" id="file3" value="https://www.nitrc.org/frs/downloadlink.php/6759" /><label for="file3">BMB_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=1;downloadAll(this.form);return false" />
+    </form>
+
+    <h3>BNU 1 - Beijing Normal University (He, Lin)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site2" /><br>
+      <input type="checkbox" class="site2" name="file4" id="file4" value="https://www.nitrc.org/frs/downloadlink.php/6542" /><label for="file4">BNU_1_0025864_0025883</label><br />
+      <input type="checkbox" class="site2" name="file5" id="file5" value="https://www.nitrc.org/frs/downloadlink.php/6543" /><label for="file5">BNU_1_0025884_0025903</label><br />
+      <input type="checkbox" class="site2" name="file6" id="file6" value="https://www.nitrc.org/frs/downloadlink.php/6544" /><label for="file6">BNU_1_0025904_0025920</label><br />
+      <input type="checkbox" class="site2" name="file7" id="file7" value="https://www.nitrc.org/frs/downloadlink.php/6740" /><label for="file7">BNU_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=4;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>BNU 2 - Beijing Normal University (Liu, Zhen)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site3" /><br>
+      <input type="checkbox" class="site3" name="file8" id="file8" value="https://www.nitrc.org/frs/downloadlink.php/6545" /><label for="file8">BNU_2_0025921_0025945</label><br />
+      <input type="checkbox" class="site3" name="file9" id="file9" value="https://www.nitrc.org/frs/downloadlink.php/6546" /><label for="file9">BNU_2_0025946_0025970</label><br />
+      <input type="checkbox" class="site3" name="file10" id="file10" value="https://www.nitrc.org/frs/downloadlink.php/6547" /><label for="file10">BNU_2_0025971_0025981</label><br />
+      <input type="checkbox" class="site3" name="file11" id="file11" value="https://www.nitrc.org/frs/downloadlink.php/6741" /><label for="file11">BNU_2_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=8;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>BNU 3 - Beijing Normal University (Zang)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site4" /><br>
+      <input type="checkbox" class="site4" name="file12" id="file9" value="https://www.nitrc.org/frs/downloadlink.php/6496" /><label for="file9">BNU_3_0027055_0027069</label><br />
+      <input type="checkbox" class="site4" name="file13" id="file10" value="https://www.nitrc.org/frs/downloadlink.php/6497" /><label for="file10">BNU_3_0027070_0027084</label><br />
+      <input type="checkbox" class="site4" name="file11" id="file11" value="https://www.nitrc.org/frs/downloadlink.php/6498" /><label for="file11">BNU_3_0027085_0027099</label><br />
+      <input type="checkbox" class="site4" name="file12" id="file12" value="https://www.nitrc.org/frs/downloadlink.php/6499" /><label for="file12">BNU_3_0027100_0027102</label><br />
+      <input type="checkbox" class="site4" name="file148" id="file148" value="https://www.nitrc.org/frs/downloadlink.php/6735" /><label for="file148">BNU_3_Phenotypic_Data</label><br />      
+      <input type="button" value="Download Selected" onclick="suffix=9;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>HNU 1 - Hangzhou Normal University (Weng, Chen, Zuo)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site5" /><br>
+      <input type="checkbox" class="site5" name="file13" id="file13" value="https://www.nitrc.org/frs/downloadlink.php/6501" /><label for="file13">HNU_1_0025427_0025429</label><br />
+      <input type="checkbox" class="site5" name="file14" id="file14" value="https://www.nitrc.org/frs/downloadlink.php/6500" /><label for="file14">HNU_1_0025427_0025429</label><br />
+      <input type="checkbox" class="site5" name="file15" id="file15" value="https://www.nitrc.org/frs/downloadlink.php/6533" /><label for="file15">HNU_1_0025433_0025435 </label><br />
+      <input type="checkbox" class="site5" name="file16" id="file16" value="https://www.nitrc.org/frs/downloadlink.php/6534" /><label for="file16">HNU_1_0025436_0025438</label><br />
+      <input type="checkbox" class="site5" name="file17" id="file17" value="https://www.nitrc.org/frs/downloadlink.php/6535" /><label for="file17">HNU_1_0025439_0025441</label><br />
+      <input type="checkbox" class="site5" name="file18" id="file18" value="https://www.nitrc.org/frs/downloadlink.php/6536" /><label for="file18">HNU_1_0025442_0025444</label><br />
+      <input type="checkbox" class="site5" name="file19" id="file19" value="https://www.nitrc.org/frs/downloadlink.php/6537" /><label for="file19">HNU_1_0025445_0025447 </label><br />
+      <input type="checkbox" class="site5" name="file20" id="file20" value="https://www.nitrc.org/frs/downloadlink.php/6538" /><label for="file20">HNU_1_0025448_0025449 </label><br />
+      <input type="checkbox" class="site5" name="file21" id="file21" value="https://www.nitrc.org/frs/downloadlink.php/6539" /><label for="file21">HNU_1_0025450</label><br />
+      <input type="checkbox" class="site5" name="file22" id="file22" value="https://www.nitrc.org/frs/downloadlink.php/6540" /><label for="file22">HNU_1_0025451_0025453</label><br />
+      <input type="checkbox" class="site5" name="file23" id="file23" value="https://www.nitrc.org/frs/downloadlink.php/6541" /><label for="file23">HNU_1_0025454_0025456</label><br />
+      <input type="checkbox" class="site5" name="file149" id="file149" value="https://www.nitrc.org/frs/downloadlink.php/6736" /><label for="file149">HNU_1_Phenotypic_Data</label><br /> 
+      <input type="button" value="Download Selected" onclick="suffix=13;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>IACAS 1 - Institute of Automation, Chinese Academy of Sciences (Jiang, Zhou, Wang)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site6" /><br>
+      <input type="checkbox" class="site6" name="file24" id="file24" value="https://www.nitrc.org/frs/downloadlink.php/6548" /><label for="file24">IACAS_0025457_0025482</label><br />
+      <input type="checkbox" class="site6" name="file25" id="file25" value="https://www.nitrc.org/frs/downloadlink.php/6549" /><label for="file25">IACAS_0025483_0025484</label><br />
+      <input type="checkbox" class="site6" name="file150" id="file150" value="https://www.nitrc.org/frs/downloadlink.php/6766" /><label for="file150">IACAS_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=24;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>IBATRT 1 - Intrinsic Brain Activity, Test-Retest Dataset (LaConte, Craddock)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site7" /><br>
+      <input type="checkbox" class="site7" name="file26" id="file26" value="https://www.nitrc.org/frs/downloadlink.php/6626" /><label for="file26">IBA_TRT_0027223_0027236</label><br />
+      <input type="checkbox" class="site7" name="file27" id="file27" value="https://www.nitrc.org/frs/downloadlink.php/6627" /><label for="file27">IBA_TRT_0027237_0027249</label><br />
+      <input type="checkbox" class="site7" name="file28" id="file28" value="https://www.nitrc.org/frs/downloadlink.php/6628" /><label for="file28">IBA_TRT_0027250_0027258</label><br />
+      <!--<input type="checkbox" class="site7" name="file151" id="file151" value="https://www.nitrc.org/frs/downloadlink.php/6766" /><label for="file151">IBA_TRT_Phenotypic_Data</label><br /> --!> 
+      <input type="button" value="Download Selected" onclick="suffix=26;downloadAll(this.form);return false" />
+    </form> 
+    
+    <h3>IPCAS 1 - Institute of Psychology, Chinese Academy of Sciences (Fu, Zhao)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site8" /><br>
+      <input type="checkbox" class="site8" name="file29" id="file29" value="https://www.nitrc.org/frs/downloadlink.php/6550" /><label for="file29">IPCAS_1_0025485_0025497</label><br />
+      <input type="checkbox" class="site8" name="file30" id="file30" value="https://www.nitrc.org/frs/downloadlink.php/6551" /><label for="file30">IPCAS_1_0025498_0025510</label><br />
+      <input type="checkbox" class="site8" name="file31" id="file31" value="https://www.nitrc.org/frs/downloadlink.php/6552" /><label for="file31">IPCAS_1_0025511_0025514</label><br />
+      <input type="checkbox" class="site8" name="file152" id="file152" value="https://www.nitrc.org/frs/downloadlink.php/6743" /><label for="file152">IPCAS_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=29;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>IPCAS 2 - Institute of Psychology, Chinese Academy of Sciences (Jiang, Li)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site9" /><br>
+      <input type="checkbox" class="site9" name="file32" id="file32" value="https://www.nitrc.org/frs/downloadlink.php/6553" /><label for="file32">IPCAS_2_0025515_0025535</label><br />
+      <input type="checkbox" class="site9" name="file33" id="file33" value="https://www.nitrc.org/frs/downloadlink.php/6554" /><label for="file33">IPCAS_2_0025536_0025549</label><br />
+      <input type="checkbox" class="site9" name="file153" id="file153" value="https://www.nitrc.org/frs/downloadlink.php/6743" /><label for="file153">IPCAS_2_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=32;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>IPCAS 3 - Institute of Psychology, Chinese Academy of Sciences (Liu, Wang)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site10" /><br>
+      <input type="checkbox" class="site10" name="file34" id="file34" value="https://www.nitrc.org/frs/downloadlink.php/6555" /><label for="file34">IPCAS_3_0025550_0025583</label><br />
+      <input type="checkbox" class="site10" name="file35" id="file35" value="https://www.nitrc.org/frs/downloadlink.php/6556" /><label for="file35">IPCAS_3_0025584_0025585</label><br />
+      <input type="checkbox" class="site10" name="file154" id="file154" value="https://www.nitrc.org/frs/downloadlink.php/6744" /><label for="file154">IPCAS_3_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=34;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>IPCAS 4 - Institute of Psychology, Chinese Academy of Sciences (Liu, Nan)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site11" /><br>
+      <input type="checkbox" class="site11" name="file36" id="file36" value="https://www.nitrc.org/frs/downloadlink.php/6625" /><label for="file36">IPCAS_4_0026190_0026209</label><br />
+      <input type="checkbox" class="site11" name="file155" id="file155" value="https://www.nitrc.org/frs/downloadlink.php/6757" /><label for="file155">IPCAS_4_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=36;downloadAll(this.form);return false" />
+    </form>
+    
+    <!-- <h3>IPCAS 5 - Institute of Psychology, Chinese Academy of Sciences (Wei, Luo)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site12" /><br>
+      <input type="checkbox" class="site12" name="file_x" id="file_x" value="http://www.nitrc.org/frs/downloadlink.php/4373" /><label for="file_x">Site_1_file_1</label><br />
+      <input type="checkbox" class="site12" name="file_y" id="file_y" value="http://www.nitrc.org/frs/downloadlink.php/4381" /><label for="file_y">Site_1_file_2</label><br />
+      <input type="checkbox" class="site12" name="file_z" id="file_z" value="http://www.nitrc.org/frs/downloadlink.php/4377" /><label for="file_z">Site_1_file_3</label><br />
+      <input type="checkbox" class="site12" name="file156" id="file156" value="https://www.nitrc.org/frs/downloadlink.php/1111" /><label for="file156">IPCAS_5_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=1;downloadAll(this.form);return false" />
+    </form> -->
+    
+    <h3>IPCAS 6 - Institute of Psychology, Chinese Academy of Sciences (Zuo, Yang)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site13" /><br>
+      <input type="checkbox" class="site13" name="file37" id="file37" value="https://www.nitrc.org/frs/downloadlink.php/6557" /><label for="file37">IPCAS_6_0026044_0026045</label><br />
+      <input type="checkbox" class="site13" name="file157" id="file157" value="https://www.nitrc.org/frs/downloadlink.php/6745" /><label for="file157">IPCAS_6_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=37;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>IPCAS 7 - Institute of Psychology, Chinese Academy of Sciences (Zuo, He)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site14" /><br>
+      <input type="checkbox" class="site14" name="file38" id="file38" value="https://www.nitrc.org/frs/downloadlink.php/6558" /><label for="file38">IPCAS_7_0026046_0026074</label><br />
+      <input type="checkbox" class="site14" name="file39" id="file39" value="https://www.nitrc.org/frs/downloadlink.php/6559" /><label for="file39">IPCAS_7_0026075_0026103</label><br />
+      <input type="checkbox" class="site14" name="file40" id="file40" value="https://www.nitrc.org/frs/downloadlink.php/6560" /><label for="file40">IPCAS_7_0026104_0026119</label><br />
+      <input type="checkbox" class="site14" name="file158" id="file158" value="https://www.nitrc.org/frs/downloadlink.php/6746" /><label for="file158">IPCAS_7_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=38;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>IPCAS 8 - Institute of Psychology, Chinese Academy of Sciences (Zuo, Xu)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site15" /><br>
+      <input type="checkbox" class="site15" name="file41" id="file41" value="https://www.nitrc.org/frs/downloadlink.php/6561" /><label for="file41">IPCAS_8_0025586_0025598</label><br />
+      <input type="checkbox" class="site15" name="file159" id="file159" value="https://www.nitrc.org/frs/downloadlink.php/6747" /><label for="file159">IPCAS_8_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=41;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>JHNU 1 - Jinling Hospital, Nanjing University (Lu, Zhang)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site16" /><br>
+      <input type="checkbox" class="site16" name="file42" id="file42" value="https://www.nitrc.org/frs/downloadlink.php/6562" /><label for="file42">JHNU_0025599_0025628</label><br />
+      <input type="checkbox" class="site16" name="file160" id="file160" value="https://www.nitrc.org/frs/downloadlink.php/6748" /><label for="file160">JHNU_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=42;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>LMU 1 - Ludwig-Maximilians-University (Blautzik, Meindl)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site17" /><br>
+      <input type="checkbox" class="site17" name="file43" id="file43" value="http://www.nitrc.org/frs/downloadlink.php/6638" /><label for="file43">LMU_1_0025335_0025339</label><br />
+      <input type="checkbox" class="site17" name="file44" id="file44" value="http://www.nitrc.org/frs/downloadlink.php/6639" /><label for="file44">LMU_1_0025340_0025344</label><br />
+      <input type="checkbox" class="site17" name="file161" id="file161" value="https://www.nitrc.org/frs/downloadlink.php/6762" /><label for="file161">LMU_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=43;downloadAll(this.form);return false" />
+    </form>
+    
+   <h3>LMU 2 - Ludwig-Maximilians-University (Blautzik, Meindl)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site18" /><br>
+      <input type="checkbox" class="site18" name="file_141" id="file_141" value="https://www.nitrc.org/frs/downloadlink.php/6658" /><label for="file_141">LMU_2_0025362_0025389 </label><br />
+      <input type="checkbox" class="site18" name="file_142" id="file_142" value="https://www.nitrc.org/frs/downloadlink.php/6659" /><label for="file_142">LMU_2_0025390_0025401 </label><br />
+      <input type="checkbox" class="site18" name="file162" id="file162" value="https://www.nitrc.org/frs/downloadlink.php/6763" /><label for="file162">LMU_2_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=1;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>LMU 3 - Ludwig-Maximilians-University (Blautzik, Meindl)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site19" /><br>
+      <input type="checkbox" class="site19" name="file_143" id="file_143" value="https://www.nitrc.org/frs/downloadlink.php/6660" /><label for="file_143">LMU_3_0025402_0025426</label><br />
+      <input type="checkbox" class="site19" name="file163" id="file163" value="https://www.nitrc.org/frs/downloadlink.php/6764" /><label for="file163">LMU_3_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=1;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>MRN 1 - Mind Research Network (Mayer, Calhoun)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site20" /><br>
+      <input type="checkbox" class="site20" name="file45" id="file45" value="http://www.nitrc.org/frs/downloadlink.php/6632" /><label for="file45">MRN_0027010_0027048</label><br />
+      <input type="checkbox" class="site20" name="file46" id="file46" value="http://www.nitrc.org/frs/downloadlink.php/6631" /><label for="file46">MRN_0027049_0027419</label><br />
+      <input type="checkbox" class="site20" name="file164" id="file164" value="https://www.nitrc.org/frs/downloadlink.php/6758" /><label for="file164">MRN_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=45;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>NKI 1 - Nathan Kline Institute (Milham, Colcombe)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site21" /><br>
+      <input type="checkbox" class="site21" name="file47" id="file47" value="https://www.nitrc.org/frs/downloadlink.php/6601" /><label for="file47">NKI_TRT_0021001</label><br />
+      <input type="checkbox" class="site21" name="file48" id="file48" value="https://www.nitrc.org/frs/downloadlink.php/6602" /><label for="file48">NKI_TRT_0021002</label><br />
+      <input type="checkbox" class="site21" name="file49" id="file49" value="https://www.nitrc.org/frs/downloadlink.php/6603" /><label for="file49">NKI_TRT_0021006</label><br />
+      <input type="checkbox" class="site21" name="file50" id="file50" value="https://www.nitrc.org/frs/downloadlink.php/6604" /><label for="file50">NKI_TRT_0021018</label><br />
+      <input type="checkbox" class="site21" name="file51" id="file51" value="https://www.nitrc.org/frs/downloadlink.php/6605" /><label for="file51">NKI_TRT_0021024</label><br />
+      <input type="checkbox" class="site21" name="file52" id="file52" value="https://www.nitrc.org/frs/downloadlink.php/6606" /><label for="file52">NKI_TRT_1427581</label><br />
+      <input type="checkbox" class="site21" name="file53" id="file53" value="https://www.nitrc.org/frs/downloadlink.php/6607" /><label for="file53">NKI_TRT_1793622</label><br />
+      <input type="checkbox" class="site21" name="file54" id="file54" value="https://www.nitrc.org/frs/downloadlink.php/6608" /><label for="file54">NKI_TRT_1961098</label><br />
+      <input type="checkbox" class="site21" name="file55" id="file55" value="https://www.nitrc.org/frs/downloadlink.php/6609" /><label for="file55">NKI_TRT_2475376</label><br />
+      <input type="checkbox" class="site21" name="file56" id="file56" value="https://www.nitrc.org/frs/downloadlink.php/6610" /><label for="file56">NKI_TRT_2799329</label><br />
+      <input type="checkbox" class="site21" name="file57" id="file57" value="https://www.nitrc.org/frs/downloadlink.php/6611" /><label for="file57">NKI_TRT_2842950</label><br />
+      <input type="checkbox" class="site21" name="file58" id="file58" value="https://www.nitrc.org/frs/downloadlink.php/6612" /><label for="file58">NKI_TRT_3201815</label><br />
+      <input type="checkbox" class="site21" name="file59" id="file59" value="https://www.nitrc.org/frs/downloadlink.php/6613" /><label for="file59">NKI_TRT_3313349</label><br />
+      <input type="checkbox" class="site21" name="file60" id="file60" value="https://www.nitrc.org/frs/downloadlink.php/6614" /><label for="file60">NKI_TRT_3315657</label><br />
+      <input type="checkbox" class="site21" name="file61" id="file61" value="https://www.nitrc.org/frs/downloadlink.php/6615" /><label for="file61">NKI_TRT_3795193</label><br />
+      <input type="checkbox" class="site21" name="file62" id="file62" value="https://www.nitrc.org/frs/downloadlink.php/6616" /><label for="file62">NKI_TRT_3808535</label><br />
+      <input type="checkbox" class="site21" name="file63" id="file63" value="https://www.nitrc.org/frs/downloadlink.php/6617" /><label for="file63">NKI_TRT_3893245</label><br />
+      <input type="checkbox" class="site21" name="file64" id="file64" value="https://www.nitrc.org/frs/downloadlink.php/6618" /><label for="file64">NKI_TRT_4176156</label><br />
+      <input type="checkbox" class="site21" name="file65" id="file65" value="https://www.nitrc.org/frs/downloadlink.php/6619" /><label for="file65">NKI_TRT_4288245</label><br />
+      <input type="checkbox" class="site21" name="file66" id="file66" value="https://www.nitrc.org/frs/downloadlink.php/6620" /><label for="file66">NKI_TRT_6471972</label><br />
+      <input type="checkbox" class="site21" name="file67" id="file67" value="https://www.nitrc.org/frs/downloadlink.php/6621" /><label for="file67">NKI_TRT_7055197</label><br />
+      <input type="checkbox" class="site21" name="file68" id="file68" value="https://www.nitrc.org/frs/downloadlink.php/6622" /><label for="file68">NKI_TRT_8574662</label><br />
+      <input type="checkbox" class="site21" name="file69" id="file69" value="https://www.nitrc.org/frs/downloadlink.php/6623" /><label for="file69">NKI_TRT_8735778</label><br />
+      <input type="checkbox" class="site21" name="file70" id="file70" value="https://www.nitrc.org/frs/downloadlink.php/6624" /><label for="file70">NKI_TRT_9630905</label><br />
+      <input type="checkbox" class="site21" name="file165" id="file165" value="https://www.nitrc.org/frs/downloadlink.php/6756" /><label for="file165">NKI_TRT_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=47;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>NYU 1 - New York University (Castellanos, Milham)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site22" /><br>
+      <input type="checkbox" class="site22" name="file71" id="file71" value="https://www.nitrc.org/frs/downloadlink.php/6502" /><label for="file71">NYU_1_0027103_0027119</label><br />
+      <input type="checkbox" class="site22" name="file72" id="file72" value="https://www.nitrc.org/frs/downloadlink.php/6503" /><label for="file72">NYU_1_0027120_0027127</label><br />
+      <input type="checkbox" class="site22" name="file166" id="file166" value="https://www.nitrc.org/frs/downloadlink.php/6737" /><label for="file166">NYU_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=71;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>NYU 2 - New York University (Di Martino, Kelly)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site23" /><br>
+      <input type="checkbox" class="site23" name="file73" id="file73" value="https://www.nitrc.org/frs/downloadlink.php/6509" /><label for="file73">NYU_2_0025000_0025006</label><br />
+      <input type="checkbox" class="site23" name="file74" id="file74" value="https://www.nitrc.org/frs/downloadlink.php/6508" /><label for="file74">NYU_2_0025007_0025012</label><br />
+      <input type="checkbox" class="site23" name="file75" id="file75" value="https://www.nitrc.org/frs/downloadlink.php/6507" /><label for="file75">NYU_2_0025013_0025018</label><br />
+      <input type="checkbox" class="site23" name="file76" id="file76" value="https://www.nitrc.org/frs/downloadlink.php/6506" /><label for="file76">NYU_2_0025019_0025024 </label><br />
+      <input type="checkbox" class="site23" name="file77" id="file77" value="https://www.nitrc.org/frs/downloadlink.php/6505" /><label for="file77">NYU_2_0025025_0025030</label><br />
+      <input type="checkbox" class="site23" name="file78" id="file78" value="https://www.nitrc.org/frs/downloadlink.php/6504" /><label for="file78">NYU_2_0025031_0025037</label><br />
+      <input type="checkbox" class="site23" name="file79" id="file79" value="https://www.nitrc.org/frs/downloadlink.php/6518" /><label for="file79">NYU_2_0025038_0025044</label><br />
+      <input type="checkbox" class="site23" name="file80" id="file80" value="https://www.nitrc.org/frs/downloadlink.php/6519" /><label for="file80">NYU_2_0025045_0025050</label><br />
+      <input type="checkbox" class="site23" name="file81" id="file81" value="https://www.nitrc.org/frs/downloadlink.php/6520" /><label for="file81">NYU_2_0025051_0025056</label><br />
+      <input type="checkbox" class="site23" name="file82" id="file82" value="https://www.nitrc.org/frs/downloadlink.php/6521" /><label for="file82">NYU_2_0025057_0025063</label><br />
+      <input type="checkbox" class="site23" name="file83" id="file83" value="https://www.nitrc.org/frs/downloadlink.php/6522" /><label for="file83">NYU_2_0025064_0025075</label><br />
+      <input type="checkbox" class="site23" name="file84" id="file84" value="https://www.nitrc.org/frs/downloadlink.php/6523" /><label for="file84">NYU_2_0025076_0025087</label><br />
+      <input type="checkbox" class="site23" name="file85" id="file85" value="https://www.nitrc.org/frs/downloadlink.php/6524" /><label for="file85">NYU_2_0025088_0025099</label><br />
+      <input type="checkbox" class="site23" name="file86" id="file86" value="https://www.nitrc.org/frs/downloadlink.php/6525" /><label for="file86">NYU_2_0025100_0025111</label><br />
+      <input type="checkbox" class="site23" name="file87" id="file87" value="https://www.nitrc.org/frs/downloadlink.php/6526" /><label for="file87">NYU_2_0025112_0025123</label><br />
+      <input type="checkbox" class="site23" name="file88" id="file88" value="https://www.nitrc.org/frs/downloadlink.php/6527" /><label for="file88">NYU_2_0025124_0025135</label><br />
+      <input type="checkbox" class="site23" name="file89" id="file89" value="https://www.nitrc.org/frs/downloadlink.php/6528" /><label for="file89">NYU_2_0025136_0025147</label><br />
+      <input type="checkbox" class="site23" name="file90" id="file90" value="https://www.nitrc.org/frs/downloadlink.php/6529" /><label for="file90">NYU_2_0025148_0025159 </label><br />
+      <input type="checkbox" class="site23" name="file91" id="file91" value="https://www.nitrc.org/frs/downloadlink.php/6530" /><label for="file91">NYU_2_0025160_0025171</label><br />
+      <input type="checkbox" class="site23" name="file92" id="file92" value="https://www.nitrc.org/frs/downloadlink.php/6531" /><label for="file92">NYU_2_0025172_0025183</label><br />
+      <input type="checkbox" class="site23" name="file93" id="file93" value="https://www.nitrc.org/frs/downloadlink.php/6532" /><label for="file93">NYU_2_0025184_0025186</label><br />
+      <input type="checkbox" class="site23" name="file167" id="file167" value="https://www.nitrc.org/frs/downloadlink.php/6738" /><label for="file167">NYU_2_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=73;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>SWU 1 - Southwest University (Chen, Liu)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site24" /><br>
+      <input type="checkbox" class="site24" name="file94" id="file94" value="https://www.nitrc.org/frs/downloadlink.php/6563" /><label for="file94">SWU_1_0027203_0027212</label><br />
+      <input type="checkbox" class="site24" name="file95" id="file95" value="https://www.nitrc.org/frs/downloadlink.php/6564" /><label for="file95">SWU_1_0027213_0027222</label><br />
+      <input type="checkbox" class="site24" name="file168" id="file168" value="https://www.nitrc.org/frs/downloadlink.php/6750" /><label for="file168">SWU_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=94;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>SWU 2 - Southwest University (Chen, Chen)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site25" /><br>
+      <input type="checkbox" class="site25" name="file96" id="file96" value="https://www.nitrc.org/frs/downloadlink.php/6565" /><label for="file96">SWU_2_0027176_0027202</label><br />
+      <input type="checkbox" class="site25" name="file169" id="file169" value="https://www.nitrc.org/frs/downloadlink.php/6751" /><label for="file169">SWU_2_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=96;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>SWU 3 - Southwest University (Chen, Lei)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site26" /><br>
+      <input type="checkbox" class="site26" name="file97" id="file97" value="https://www.nitrc.org/frs/downloadlink.php/6566" /><label for="file97">SWU_3_0027152_0027175</label><br />
+      <input type="checkbox" class="site26" name="file170" id="file170" value="https://www.nitrc.org/frs/downloadlink.php/6752" /><label for="file170">SWU_3_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=97;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>SWU 4 - Southwest University (Qiu, Zhang, Wei)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site27" /><br>
+      <input type="checkbox" class="site27" name="file98" id="file98" value="https://www.nitrc.org/frs/downloadlink.php/6588" /><label for="file98">SWU_4_0025629_0025638</label><br />
+      <input type="checkbox" class="site27" name="file99" id="file99" value="https://www.nitrc.org/frs/downloadlink.php/6587" /><label for="file99">SWU_4_0025639_0025649</label><br />
+      <input type="checkbox" class="site27" name="file100" id="file100" value="https://www.nitrc.org/frs/downloadlink.php/6586" /><label for="file100">SWU_4_0025650_0025660</label><br />
+      <input type="checkbox" class="site27" name="file101" id="file101" value="https://www.nitrc.org/frs/downloadlink.php/6585" /><label for="file101">SWU_4_0025661_0025671</label><br />
+      <input type="checkbox" class="site27" name="file102" id="file102" value="https://www.nitrc.org/frs/downloadlink.php/6584" /><label for="file102">SWU_4_0025672_0025681</label><br />
+      <input type="checkbox" class="site27" name="file103" id="file103" value="https://www.nitrc.org/frs/downloadlink.php/6583" /><label for="file103">SWU_4_0025682_0025691</label><br />
+      <input type="checkbox" class="site27" name="file104" id="file104" value="https://www.nitrc.org/frs/downloadlink.php/6582" /><label for="file104">SWU_4_0025692_0025702</label><br />
+      <input type="checkbox" class="site27" name="file105" id="file105" value="https://www.nitrc.org/frs/downloadlink.php/6581" /><label for="file105">SWU_4_0025703_0025713</label><br />
+      <input type="checkbox" class="site27" name="file106" id="file106" value="https://www.nitrc.org/frs/downloadlink.php/6580" /><label for="file106">SWU_4_0025714_0025723</label><br />
+      <input type="checkbox" class="site27" name="file107" id="file107" value="https://www.nitrc.org/frs/downloadlink.php/6579" /><label for="file107">SWU_4_0025724_0025733</label><br />
+      <input type="checkbox" class="site27" name="file108" id="file108" value="https://www.nitrc.org/frs/downloadlink.php/6578" /><label for="file108">SWU_4_0025734_0025744</label><br />
+      <input type="checkbox" class="site27" name="file109" id="file109" value="https://www.nitrc.org/frs/downloadlink.php/6577" /><label for="file109">SWU_4_0025745_0025756</label><br />
+      <input type="checkbox" class="site27" name="file110" id="file110" value="https://www.nitrc.org/frs/downloadlink.php/6576" /><label for="file110">SWU_4_0025757_0025766</label><br />
+      <input type="checkbox" class="site27" name="file111" id="file111" value="https://www.nitrc.org/frs/downloadlink.php/6575" /><label for="file111">SWU_4_0025767_0025777</label><br />
+      <input type="checkbox" class="site27" name="file112" id="file112" value="https://www.nitrc.org/frs/downloadlink.php/6574" /><label for="file112">SWU_4_0025778_0025787</label><br />
+      <input type="checkbox" class="site27" name="file113" id="file113" value="https://www.nitrc.org/frs/downloadlink.php/6573" /><label for="file113">SWU_4_0025788_0025799</label><br />
+      <input type="checkbox" class="site27" name="file114" id="file114" value="https://www.nitrc.org/frs/downloadlink.php/6572" /><label for="file114">SWU_4_0025800_0025809</label><br />
+      <input type="checkbox" class="site27" name="file115" id="file115" value="https://www.nitrc.org/frs/downloadlink.php/6571" /><label for="file115">SWU_4_0025810_0025819</label><br />
+      <input type="checkbox" class="site27" name="file116" id="file116" value="https://www.nitrc.org/frs/downloadlink.php/6570" /><label for="file116">SWU_4_0025820_0025830</label><br />
+      <input type="checkbox" class="site27" name="file117" id="file117" value="https://www.nitrc.org/frs/downloadlink.php/6569" /><label for="file117">SWU_4_0025831_0025841</label><br />
+      <input type="checkbox" class="site27" name="file118" id="file118" value="https://www.nitrc.org/frs/downloadlink.php/6568" /><label for="file118">SWU_4_0025842_0025852</label><br />
+      <input type="checkbox" class="site27" name="file119" id="file119" value="https://www.nitrc.org/frs/downloadlink.php/6567" /><label for="file119">SWU_4_0025853_0025862</label><br />
+      <input type="checkbox" class="site27" name="file144" id="file144" value="https://www.nitrc.org/frs/downloadlink.php/6566" /><label for="file144">SWU_4_0025863_0025863</label><br />
+      <input type="checkbox" class="site27" name="file171" id="file171" value="https://www.nitrc.org/frs/downloadlink.php/6753" /><label for="file171">SWU_4_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=98;downloadAll(this.form);return false" />
+    </form>
+
+    <h3>UM 1 - Université de Montréal (Bellec, Breitner)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site28" /><br>
+      <input type="checkbox" class="site28" name="file120" id="file120" value="https://www.nitrc.org/frs/downloadlink.php/6589" /><label for="file120">UM_0026007_0026135</label><br />
+      <input type="checkbox" class="site28" name="file121" id="file121" value="https://www.nitrc.org/frs/downloadlink.php/6590" /><label for="file121">UM_0026136_0026163</label><br />
+      <input type="checkbox" class="site28" name="file122" id="file122" value="https://www.nitrc.org/frs/downloadlink.php/6591" /><label for="file122">UM_0026164_0026189</label><br />
+      <input type="checkbox" class="site28" name="file172" id="file172" value="https://www.nitrc.org/frs/downloadlink.php/6754" /><label for="file172">UM_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=120;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>UPSM 1 - University of Pittsburgh School of Medicine (Luna, Paulsen)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site29" /><br>
+      <input type="checkbox" class="site29" name="file123" id="file123" value="https://www.nitrc.org/frs/downloadlink.php/6514" /><label for="file123">UPSM_1_0025234_0025263</label><br />
+      <input type="checkbox" class="site29" name="file124" id="file124" value="https://www.nitrc.org/frs/downloadlink.php/6515" /><label for="file124">UPSM_1_0025264_0025291</label><br />
+      <input type="checkbox" class="site29" name="file125" id="file125" value="https://www.nitrc.org/frs/downloadlink.php/6516" /><label for="file125">UPSM_1_0025292_0025328</label><br />
+      <input type="checkbox" class="site29" name="file126" id="file126" value="https://www.nitrc.org/frs/downloadlink.php/6517" /><label for="file126">UPSM_1_0025329_0025333</label><br />
+      <input type="checkbox" class="site29" name="file173" id="file173" value="https://www.nitrc.org/frs/downloadlink.php/6739" /><label for="file173">UPSM_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=123;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>Utah 1 - University of Utah (Anderson, Lainhart)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site30" /><br>
+      <input type="checkbox" class="site30" name="file127" id="file127" value="http://www.nitrc.org/frs/downloadlink.php/6635" /><label for="file127">Utah_1_0026018_0026029</label><br />
+      <input type="checkbox" class="site30" name="file128" id="file128" value="http://www.nitrc.org/frs/downloadlink.php/6634" /><label for="file128">Utah_1_0026030_0026041</label><br />
+      <input type="checkbox" class="site30" name="file129" id="file129" value="http://www.nitrc.org/frs/downloadlink.php/6633" /><label for="file129">Utah_1_0026042_0026043</label><br />
+      <input type="checkbox" class="site30" name="file174" id="file174" value="https://www.nitrc.org/frs/downloadlink.php/6760" /><label for="file174">Utah_1_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=127;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>Utah 2 - University of Utah (Anderson, Nielsen)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site31" /><br>
+      <input type="checkbox" class="site31" name="file130" id="file130" value="http://www.nitrc.org/frs/downloadlink.php/6636" /><label for="file130">Utah_2_0026017_part1</label><br />
+      <input type="checkbox" class="site31" name="file131" id="file131" value="http://www.nitrc.org/frs/downloadlink.php/6637" /><label for="file131">Utah_2_0026017_part2</label><br />
+      <input type="checkbox" class="site31" name="file175" id="file175" value="https://www.nitrc.org/frs/downloadlink.php/6761" /><label for="file175">Utah_2_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=130;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>UWM 1 - University of Wisconsin, Madison (Birn, Prabhakaran, Meyerand)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site32" /><br>
+      <input type="checkbox" class="site32" name="file132" id="file132" value="https://www.nitrc.org/frs/downloadlink.php/6592" /><label for="file132">UWM_0027259_0027273</label><br />
+      <input type="checkbox" class="site32" name="file133" id="file133" value="https://www.nitrc.org/frs/downloadlink.php/6593" /><label for="file133">UWM_0027274_0027283 </label><br />
+      <input type="checkbox" class="site32" name="file176" id="file176" value="https://www.nitrc.org/frs/downloadlink.php/6755" /><label for="file176">UWM_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=132;downloadAll(this.form);return false" />
+    </form>
+    
+    <h3>XHCUMS 1 - Xuanwu Hospital, Capital University of Medical Sciences (Li, Lu)</h3>
+    <form>
+      <input type="button" value="Select All" name="select-all-site" class="site33" /><br>
+      <input type="checkbox" class="site33" name="file134" id="file134" value="https://www.nitrc.org/frs/downloadlink.php/6594" /><label for="file134">XHCUMS_0025982</label><br />
+      <input type="checkbox" class="site33" name="file135" id="file135" value="https://www.nitrc.org/frs/downloadlink.php/6595" /><label for="file135">XHCUMS_0025983_0025986</label><br />
+      <input type="checkbox" class="site33" name="file136" id="file136" value="https://www.nitrc.org/frs/downloadlink.php/6596" /><label for="file136">XHCUMS_0025987_0025991</label><br />
+      <input type="checkbox" class="site33" name="file137" id="file137" value="https://www.nitrc.org/frs/downloadlink.php/6597" /><label for="file137">XHCUMS_0025992_0025996</label><br />
+      <input type="checkbox" class="site33" name="file138" id="file138" value="https://www.nitrc.org/frs/downloadlink.php/6598" /><label for="file138">XHCUMS_0025997_0025600</label><br />
+      <input type="checkbox" class="site33" name="file139" id="file139" value="https://www.nitrc.org/frs/downloadlink.php/6599" /><label for="file139">XHCUMS_0026001_0026004</label><br />
+      <input type="checkbox" class="site33" name="file140" id="file140" value="https://www.nitrc.org/frs/downloadlink.php/6600" /><label for="file140">XHCUMS_0026005_0026006</label><br />
+      <input type="checkbox" class="site33" name="file177" id="file177" value="https://www.nitrc.org/frs/downloadlink.php/6765" /><label for="file177">XHCUMS_Phenotypic_Data</label><br />
+      <input type="button" value="Download Selected" onclick="suffix=134;downloadAll(this.form);return false" />
+    </form>
+
+    <button id="select-all">Select All</button>
+    <button id="deselect-all">Deselect All</button>
+    <br>
+    <p style="font-family: Trebuchet MS;">Consistent with the policies of the 1000 Functional Connectome Project, data usage is unrestricted for non-commercial research purposes. As per INDI protocol, we simply require that user register with the NITRC and 1000 Functional Connectomes Project to gain access.
+      <br>
+      <a href="http://fcon_1000.projects.nitrc.org/indi/req_access.html">Register</a>
+      <br>
+      <br>
+      NOTE: PLEASE BE SURE THAT YOU ARE LOGGED INTO NITRC BEFORE ATTEMPTING TO DOWNLOAD DATA.
+      <br>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+IPCAS (Zuo) - 3 Day
+===================
+
+.. image:: /_images/logo_ipcas_zuo.jpg
+
+**Connectome Across Three Days**
+
+**Principal Investigator:**
+
+* Xi-Nian Zuo, Institute of Psychology, Chinese Academy of Science
+
+**Acknowledgements:**
+
+* Hao-Ming Dong, Institute of Psychology, Chinese Academy of Science
+* Xing-Ting Zhu, Institute of Psychology, Chinese Academy of Science
+* Ye He, Institute of Psychology, Chinese Academy of Science
+* Ning Yang, Institute of Psychology, Chinese Academy of Science
+
+**Funding:**
+
+* National Natural Science Foundation of China (81171409)
+* International Cooperation and Exchange of National Natural Science Foundation of China (81220108014)
+* Hundred Talents Program and the Key Research Program (KSZD-EW-TZ-002) of the Chinese Academy of Sciences
+
+Sample Description
+------------------
+This sample includes 2 healthy young adults. Each participant was scanned five times a day over three days and each session contained three resting state scans. Three modalities (T1 /T2/EPI) of brain images were acquired for both subjects. Subjects were presented with a fixation cross and were instructed to keep their eyes open, fixate on the cross displayed on the screen, relax, and move as little as possible

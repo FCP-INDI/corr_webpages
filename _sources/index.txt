@@ -1,0 +1,77 @@
+.. CoRR documentation master file, created by
+   sphinx-quickstart on Fri Feb 21 15:15:18 2014.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+The Consortium for Reproducibility and Reliability (CoRR)
+=========================================================
+
+The goal of CoRR was to create an open science resource for the imaging community that facilitates the assessment of test-retest reliability and reproducibility for functional and structural connectomics. In order to accomplish this, we have aggregated resting state fMRI (R-fMRI) and diffusion imaging data from laboratories around the world, and  are sharing the data via the International Neuroimaging Data-sharing Initiative (INDI). This enables the: 
+
+#. Establishment of test-retest reliability and reproducibility for commonly used MR-based connectome metrics 
+#. Determination of the range of variation in the reliability and reproducibility of these metrics across imaging sites and retest study designs
+#. Creation of a standard/benchmark test-retest dataset for the evaluation of novel metrics 
+
+Given that this was a retrospective data collection, we have focused on basic phenotypic measures that are relatively standard in the neuroimaging field, as well as fundamental for analyses and sample characterization. Our phenotypic key is organized to reflect three classifications of variables: 1) core (i.e., minimal variables required to characterize any dataset), 2) preferred (i.e., variables that were strongly suggested for inclusion due to their relative import and/or likelihood of being collected by most sites), and 3) optional (variables that are data-set specific or only shared by a few sites).
+
+
+Organizers
+----------
+**Consortium Founders**
+
+Xi-Nian Zuo, Michael P. Milham
+
+**Project Coordinator**
+
+Xi-Nian Zuo
+
+**Data Aggregation and Organization**
+
+David O’Conner, Daniel Lurie, Michael P. Milham, Ting Xu, Xi-Nian Zuo
+
+**Website**
+
+Daniel Lurie
+
+**Database Support**
+
+Vince Calhoun, Wil Courtney, Margaret King
+
+Contributors
+------------
+
+* `Jeffrey S. Anderson <http://brainnetworklab.com/>`_, University of Utah
+* `Pierre Bellec <http://simexp-lab.org/brainwiki/doku.php?id=pierrebellec>`_, Centre de recherche de l'institut de Gériatrie de Montréal
+* `Rasmus Birn <http://birnlab.psychiatry.wisc.edu/?page_id=114>`_, University of Wisconsin
+* Janusch Blautzik, Ludwig-Maximillians University Munich
+* `Urs Braun <http://www.zi-mannheim.de/en/research/people/person/5511.html>`_, Central Institute of Mental Health, Mannheim
+* `Randy Buckner <http://www.nmr.mgh.harvard.edu/nexus/>`_, Harvard University
+* `Vince Calhoun <http://mialab.mrn.org/>`_, University of New Mexico
+* `F. Xavier Castellanos <http://www.aboutourkids.org/about_us/staff/clinical_faculty/f_xavier_castellanos>`_, NYU Child Study Center
+* `Antao Chen <http://psych.swu.edu.cn/article.php?articleid=422>`_, Southwest University
+* `Adriana Di Martino <http://www.aboutourkids.org/about_us/staff/research_faculty/adriana_di_martino>`_, NYU Child Study Center
+* `Xiaolan Fu <http://fu.psych.ac.cn/en/index.php>`_, Institute of Psychology, Chinese Academy of Sciences
+* `Yong He <http://a997300447.oinsite.yh.mynet.cn/_d275398143.htm>`_, Beijing Normal University
+* `Tiangzi Jiang <http://www.nlpr.ia.ac.cn/jiangtz/>`_, Institute of Automation, Chinese Academy of Sciences
+* `Yi Jiang <http://vision.psych.ac.cn/>`_, Institute of Psychology, Chinese Academy of Sciences
+* `Clare Kelly <http://www.aboutourkids.org/about_us/staff/professional_staff/am_clare_kelly>`_, NYU Child Study Center
+* Kuncheng Li, Beijing Xuanwu Hospital
+* `Jia Liu <http://imibr.bnu.edu.cn/pview_30.html>`_, Beijing Normal University
+* `Xun Liu <http://care.psych.ac.cn/>`_, Institute of Psychology, Chinese Academy of Sciences
+* Guangming Lu, Nanjing Jinling Hospital
+* `Daniel Margulies <https://www.cbs.mpg.de/groups/misc/nac>`_, Max Planck Institute for Human Cognitive and Brain Sciences\
+* `Michael P. Milham <http://www.childmind.org/en/directory/scientists/milhamm>`_, Nathan Kline Institute
+* `Jiang Qiu <http://psych.swu.edu.cn/article.php?articleid=334>`_, Southwest University
+* `William Seeley <http://theseeleylab.weebly.com/>`_, University of California San Francisco
+* `Xuchu Weng <http://jky.hznu.edu.cn/article.asp?id=2434>`_, Hangzhou Normal University
+* `Yu-Feng Zang <http://xiaoyou.hznu.edu.cn:81/en/index.aspx>`_, Hangzhou Normal University
+* `Xi-Nian Zuo <http://lfcd.psych.ac.cn/>`_, Institue of Psychology, Chinese Academy of Sciences
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   Data Description <samples>
+   Quality Control <qc>
+   Downloads <download>

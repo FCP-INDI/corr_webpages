@@ -1,0 +1,32 @@
+Utah Single Subject Sample
+==========================
+
+.. image:: /_images/utah.jpg
+
+**Principal Investigator:**
+
+* Jeffrey S. Anderson, Division of Neuroradiology, University of Utah
+
+**Co-Investigators:**
+
+* Jared A. Nielsen, Division of Neuroradiology, University of Utah
+* Michael A. Ferguson, Department of Bioengineering, University of Utah
+
+**Funding:**
+
+* NIMH K08MH092697 (JSA)
+
+Sample Description
+------------------
+This data is described in Anderson et al. AJNR 2011. A single subject was imaged for 10 sessions over 3 weeks, each of which included 10 five-minute BOLD acquisitions. Five of the sessions were performed in the resting state "Keep your eyes open and remain awake. Let thoughts pass through your mind without focusing on any particular mental activity." with no visual stimuli.  The other five sessions were performed while the subject viewed 10 five-minute Looney Tunes cartoon clips.
+
+Scan Parameters:
+
+* `Resting fMRI <_static/scan_parameters/utah/utah_rest.pdf>`_
+* `Anatomical <_static/scan_parameters/utah/utah_anat.pdf>`_
+* `Field Map <_static/scan_parameters/utah/utah_fieldmap.pdf>`_
+
+
+Publications Using This Data
+----------------------------
+Anderson JS, Ferguson MA, Lopez-Larson M, Yurgelun-Todd D. `Reproducibility of single-subject functional connectivity measurements. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3205089/>`_ AJNR Am J Neuroradiol. 2011 Mar;32(3):548-55. doi: 10.3174/ajnr.A2330.

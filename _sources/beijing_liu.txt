@@ -1,0 +1,30 @@
+Beijing Normal (Liu)
+====================
+
+.. image:: /_images/logo_beijing_liu.jpg
+
+**Test-Retest Dataset for Neo-Spearman Project**
+
+**Principal Investigators:**
+
+* Jia Liu, State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, School of Psychology, Center for Collaboration and Innovation in Brain and Learning Sciences, Beijing Normal University
+
+* ZongLei Zhen, State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Center for Collaboration and Innovation in Brain and Learning Sciences, Beijing Normal University
+
+**Acknowledgements:**
+
+* Litao Zhu, State Key Laboratory of Cognitive Neuroscience and Learning & IDG/McGovern Institute for Brain Research, Center for Collaboration and Innovation in Brain and Learning Sciences, Beijing Normal University
+
+**Funding:**
+
+* National Natural Science Foundation of China (31100808, 30800295, 31230031, 91132703, 31221003)
+* National Basic Research Program of China (2010CB833903)
+
+Sample Description
+------------------
+This data is part of the Neo-Spearman Project (NSP) at Beijing Normal University, and was originally used to evaluate the reliability of data acquired in NSP. It includes 62 healthy young adults (19-23 years old), who were scanned twice separated by at least three-months (103 days). Two modalities (T1/EPI) of brain images were acquired for all subjects. During scanning, subjects were presented with a blank screen and instructed to lie still, keep their eyes closed, relax and move as little as possible, also avoid any structured mental activity such as counting.
+
+Scan Parameters:
+
+* Resting fMRI (`Test <_static/scan_parameters/beijing_liu/beijing_liu_rest1.pdf>`_, `Retest <_static/scan_parameters/beijing_liu/beijing_liu_rest2.pdf>`_)
+* Anatomical (`Test <_static/scan_parameters/beijing_he/beijing_he_anat1.pdf>`_, `Retest <_static/scan_parameters/beijing_he/beijing_he_anat1.pdf>`_)
